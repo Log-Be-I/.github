@@ -21,13 +21,13 @@
     <tr>
       <td align="center">[프로필 이미지]</td>
       <td align="center">[프로필 이미지]</td>
-      <td align="center">[프로필 이미지]</td>
-      <td align="center">[프로필 이미지]</td>
+      <td align="center"><img src="/assets/members/Nam.jpg" alt="Nam" /></td>
+      <td align="center">[]</td>
     </tr>
     <tr>
       <td align="center">[GitHub 링크 입력]</td>
       <td align="center">[GitHub 링크 입력]</td>
-      <td align="center">[GitHub 링크 입력]</td>
+      <td align="center">[https://github.com/NamTaekHo]</td>
       <td align="center">[GitHub 링크 입력]</td>
     </tr>
   </tbody>
