@@ -1,5 +1,4 @@
 # Log-Be-I
- <img src="/assets/docs/logo.png" width="30%" />
 
 ## 프로젝트 소개
 
@@ -13,11 +12,10 @@
 
 ## 🤝 팀원 구성
 
-| 강민지[팀장]        | 구본석                                        | 남택호                                                 | 여승아            |
-|----------------|--------------------------------------------|-----------------------------------------------------|----------------|
-| <img src="/assets/members/Kang.jpg" width="100px"/>    | <img src="/assets/members/Koo.jpg" width="100px" /> | <img src="/assets/members/Nam.jpg" width="100px" /> | [프로필 이미지]      |
-| [@KangMinJi](https://github.com/minggiK)   | [@6feetlife](https://github.com/6feetlife) | [@NamTaekHo](https://github.com/NamTaekHo)          | [GitHub 링크 입력] |
-
+| 강민지[팀장] | 구본석 | 남택호                                                 | 여승아                                                 |
+|--|--|-----------------------------------------------------|-----------------------------------------------------|
+| <img src="/assets/members/Kang.jpg" width="100px"/> | <img src="/assets/members/Koo.jpg" width="100px" /> | <img src="/assets/members/Nam.jpg" width="100px" /> | <img src="/assets/members/Yeo.png" width="100px" /> |
+| [@KangMinJi](https://github.com/minggiK) | [@6feetlife](https://github.com/6feetlife) | [@NamTaekHo](https://github.com/NamTaekHo)          | [@YeoSeungA](https://github.com/YeoSeungA )         |
 
 ## 🏗️ 프로젝트 아키텍처
   <img src="/assets/docs/architecture.png" width="80%" />
@@ -125,7 +123,6 @@
  <img src="/assets/docs/LogBe_I_DB.png" width="50%"/>
 
 ## 🚩 서비스 구현 기능
-
 ### 📱 주요 기능(App)
 
 | 앱 실행                                              | 로그인                                             |
@@ -158,40 +155,20 @@
 
 ### 🖥️ 주요 기능(Web)
 
-| 로그인 | 메인페이지(DashBoard) |
-|-----|------------------|
-| 내용1 | 내용2              |
+| 로그인 | <img src="../assets/web/login.gif" style="max-width: 400px; height: auto; border-radius: 8px;" /> |
+|--------------|---------------------------------------------------------------------------------------------------|
+| 메인페이지 | <img src="../assets/web/DashBoard.gif" style="max-width: 400px; height: auto; border-radius: 8px;" />                                                           |
+| 회원 조회 | <img src="../assets/web/Member.gif" style="max-width: 400px; height: auto; border-radius: 8px;" /> |
+| QnA 필터링 | <img src="../assets/web/QnA%20Refactoring.gif" style="max-width: 400px; height: auto; border-radius: 8px;" />                                                       |
+| QnA 답변 생성 | <img src="../assets/web/QnA%20Answer%20Create.gif" style="max-width: 400px; height: auto; border-radius: 8px;" /> |
+| QnA 답변 수정 | <img src="../assets/web/Answer%20Update.gif" style="max-width: 400px; height: auto; border-radius: 8px;" />                                                              |
+| QnA 답변 삭제 | <img src="../assets/web/QnA%20Answer%20Delete.gif" style="max-width: 400px; height: auto; border-radius: 8px;" /> |
+| 공지사항 조회 및 수정 | <img src="../assets/web/Notice%20Update.gif" style="max-width: 400px; height: auto; border-radius: 8px;" />                                                              |
+| 공지사항 삭제 | <img src="../assets/web/Notice%20Delete.gif" style="max-width: 400px; height: auto; border-radius: 8px;" /> |
 
-| 회원 조회 | 회원 정렬 |
-|-------|-------|
-| 내용1   | 내용2   |
 
-| 회원 검색? | QnA 조회 |
-|--------|--------|
-| 내용1    | 내용2    |
 
-| 미등록만 조회 | 질문 정렬 |
-|---------|-------|
-| 내용1     | 내용2   |
-
-| 질문 검색? | 답변 등록 |
-|--------|-------|
-| 내용1    | 내용2   |
-
-| 답변 수정 | 답변 삭제 |
-|-------|-------|
-| 내용1   | 내용2   |
-
-| 공지사항 | 공지 등록 |
-|------|-------|
-| 내용1  | 내용2   |
-
-| 공지 수정 | 공지 삭제 |
-|-------|-------|
-| 내용1   | 내용2   |
-
-## 주요 기능 💢💢💢💢💢 텍스트, gif 같이 쓸지 없애고 gif 만 쓸지 결정
-
+## 📌 주요 기능 
 ### 1. 일상 기록
 
 - 텍스트 기록
@@ -245,8 +222,7 @@
     - 지역 설정
     - 계정 삭제
 
-## 구성원 별 담당 내용
-
+## 👥 구성원 별 담당 내용
 ### 강민지
 
 [일상 분석, OpenAI GPT API, 관리자 웹페이지 기능, 테스트 코드]
@@ -398,9 +374,73 @@
     - 빌드 최적화
     - 앱 서명 설정
 
-### 여승아
 
-[담당 내용 입력]
+### 여승아
+[AWS 서버 및 웹 호스팅, 앱 기능 구현(이슈카드 관리, 일상 분석, QnA, 공지사항, 프로필 관리), 관리자용 웹 구현(메인페이지, 회원 관리 페이지, QnA 관리 페이지, 공지 페이지)]
+> ### AWS 서버 및 웹 호스팅
+
+- AWS S3를 사용한 관리자용 웹사이트 호스팅
+- CloudFront를 통한 CDN 설정 및 최적화
+- Route 53을 이용한 도메인 설정 및 HTTPS 적용
+
+### 앱 기능 구현 (React Native)
+
+> ### 이슈카드 관리 [FE, BE]
+
+- 네이버 뉴스 API 연동하여 키워드 기반 실시간 뉴스 조회
+- 키워드 선택 또는 사용자 입력을 통해 맞춤 뉴스 제공
+- API 응답 데이터를 사용자에게 즉시 반영
+
+> ### 일상 분석 [FE]
+
+- 사용자 기록된 텍스트를 오디오로 재생 (TTS)
+- 사용자가 기록한 내용을 재생/정지 가능
+- UI/UX 최적화: 사용자 인터랙션 최소화로 직관적 사용
+
+> ### QnA [FE]
+
+- QnA 생성, 조회, 수정, 삭제 기능
+- 답변 여부에 따른 시각적 구분
+- 답변 작성 시 사용자에게 즉각 반영 (실시간 피드백)
+
+> ### 공지사항 [FE]
+
+- 공지사항 생성, 조회, 수정, 삭제 기능
+- 중요 공지사항 상단 고정 기능
+
+
+> ### 프로필 관리 [FE]
+
+- 사용자 정보 수정 및 저장 (Zustand 상태 관리)
+- 실시간 UI 반영 (프로필 수정 시 즉시 반영)
+
+> ### 회원가입 [FE]
+
+- UI/UX 설계 및 구현
+- 사용자 정보 입력
+
+### 웹 (관리자용)
+
+> ### 메인 페이지 [FE]
+
+- 실시간 회원가입 수, 미답변 QnA 개수, 최신 공지 표시
+- 사용자 경험을 고려한 직관적 대시보드 UI
+
+> ### 회원 관리 페이지 [FE]
+
+- 회원 목록 필터링 (정렬, 검색) 기능 구현
+- 회원 전체조회, 상세조회 (모달 형식)
+
+> ### QnA 관리 페이지 [FE]
+
+- 질문 전체조회, 상세조회, 답변 생성/수정/삭제
+- QnA 미답변 필터링으로 신속한 답변 처리 가능
+
+> ### 공지 페이지 [FE]
+
+- 공지 생성, 조회, 수정, 삭제
+- 중요 공지사항 고정 기능 (우선순위 높은 공지 표시)
+
 
 ## 📄 개발 문서
 
@@ -429,7 +469,7 @@
 - **발표자료**
     - [Log-Be-I 발표자료](https://www.canva.com/design/DAGmE_vbclk/119bGgXTEpc2WGNly8TK_g/edit)
 
-## 프로젝트 회고
+## 📝 프로젝트 회고
 
 ### 강민지
 
@@ -487,5 +527,14 @@
 > 임할 수 있을 것 같습니다.
 
 ### 여승아
+> 이 프로젝트를 통해 React Native 기반의 모바일 앱 개발과 AWS를 활용한 웹 호스팅의 전체적인 흐름을 깊이 있게 이해할 수 있었으며, 사용자 경험을 고려한 UI/UX 설계의 중요성을 체감했습니다.
 
-[회고 입력]
+> AWS S3, CloudFront, Route 53을 사용하여 관리자용 웹사이트를 호스팅하고 안정적으로 관리할 수 있는 방법을 학습했습니다. 이를 통해 웹사이트 성능 최적화와 CDN 설정의 중요성을 
+> 실무적으로 경험할 수 있었습니다.
+
+> 한국 시간(UTC+9) 기반의 일정 관리 시스템을 구축하면서, 시간대 처리의 복잡성을 경험할 수 있었습니다. 사용자에게 한국 시간으로 정확한 일정을 제공하기 위해 Date 객체의 시간대 변환을 깊이 학습하고, 
+> 이를 통해 전 세계 사용자를 위한 시간 관리 시스템의 중요성을 체감했습니다.
+
+> 이번 프로젝트를 통해 사용자 인터랙션을 고려한 UI/UX 설계의 중요성을 배우고, API 연동 및 상태 관리 최적화, AWS 기반의 웹 호스팅을 직접 경험할 수 있었습니다. 
+> 앞으로도 사용자 경험을 최우선으로 고려하는 서비스 개발에 기여하고자 합니다.
+
