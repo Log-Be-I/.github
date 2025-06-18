@@ -14,7 +14,7 @@
 
 | 강민지[팀장] | 구본석 | 남택호                                                 | 여승아                                                 |
 |--|--|-----------------------------------------------------|-----------------------------------------------------|
-| <img src="/assets/members/Kang.jpg" width="100px"/> | <img src="/assets/members/Koo.jpg" width="100px" /> | <img src="/assets/members/Nam.jpg" width="100px" /> | <img src="/assets/members/Yeo.png" width="100px" /> |
+| <img src="/assets/members/Kang.jpg" width="100px"/> | <img src="/assets/members/Koo.jpg" width="100px" /> | <img src="/assets/members/Nam.jpg" width="100px" /> | <img src="/assets/members/Yeo.jpg" width="100px" /> |
 | [@KangMinJi](https://github.com/minggiK) | [@6feetlife](https://github.com/6feetlife) | [@NamTaekHo](https://github.com/NamTaekHo)          | [@YeoSeungA](https://github.com/YeoSeungA )         |
 
 ## 🏗️ 프로젝트 아키텍처
